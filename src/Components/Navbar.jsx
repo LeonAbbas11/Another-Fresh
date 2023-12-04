@@ -19,7 +19,7 @@ const Navbar = ({ open, close, menu }) => {
               <button className='text-xl my-auto ml-20 text-white transition-all duration-500 hover:scale-110' onClick={()=>navigate('/list')}>Price List</button>
             </div>
           </div>
-          <button onClick={open} className='text-white absolute top-9 left-5 grid md:hidden'>
+          <button onClick={open} className='bg-white p-1 rounded absolute top-9 left-5 grid md:hidden'>
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fillRule="currentColor" className="bi bi-list" viewBox="0 0 16 16">
               <path fill-rule-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
             </svg>
