@@ -27,7 +27,7 @@ const Main = () => {
       <Navbar open={handleSide} close={handleSide} menu={side} />
         <div className="pembuka container grid mx-auto px-5 md:px-0 w-full md:w-10/12 2xl:w-full">
           <div className="w-full md:w-1/2 mx-auto xl:mx-0">
-            <p className='text-3xl xl:text-[37px] mt-10 md:mt-16 xl:mt-32 text-start md:text-center xl:text-start text-white font-light'>Sambut pagi Anda dengan kesegaran buah-buahan terbaik dari <i className='font-semibold'>Another Fresh!</i></p>
+            <p className='text-3xl xl:text-[37px] mt-10 lg:mt-16 text-start md:text-center xl:text-start text-white font-light'>Sambut pagi Anda dengan kesegaran buah-buahan terbaik dari <i className='font-semibold'>Another Fresh!</i></p>
             <p className='text-white mt-5 text-start md:text-center xl:text-start text-xl xl:text-2xl font-light'>Another Fresh menyajikan beragam buah-buahan segar terbaik, dengan standar kualitas tinggi. Setiap buah dipilih dengan hati-hati untuk memastikan kesegaran dan kematangan yang sempurna, sehingga Anda bisa mendapatkan yang terbaik untuk keluarga dan teman-teman Anda.</p>
             <div className="order flex py-2 px-6 text-white mt-10 space-x-5 text-xl border rounded w-max cursor-pointer transition-all duration-700 hover:scale-110 md:mx-auto mx-0 xl:mx-0">
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
