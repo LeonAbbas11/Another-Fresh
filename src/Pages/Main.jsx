@@ -39,19 +39,19 @@ const Main = () => {
           <div className="order w-full grid mt-10 xl:mt-0 mb-10 md:mb-16">
             <div className="wrapper border p-5 rounded-xl border-white mb-10 md:mb-0 md:mt-0 w-full md:w-3/4 lg:w-1/2 mx-auto xl:mx-0 xl:ml-auto h-max">
               <div className="xl:flex xl:space-x-4">
-                <input type="text" placeholder='Nama lengkap' className='md:p-1 xl:p-2 rounded bg-white outline-none w-full' />
-                <input type="number" placeholder='No. WA/Telpon' className='md:p-1 xl:p-2 rounded bg-white outline-none w-full md:mt-4 xl:mt-0' />
+                <input type="text" placeholder='Nama lengkap' className='p-1 xl:p-2 rounded mt-4 bg-white outline-none w-full' />
+                <input type="number" placeholder='No. WA/Telpon' className='p-1 xl:p-2 rounded mt-4 bg-white outline-none w-full md:mt-4 xl:mt-0' />
               </div>
-              <input type="text" placeholder='Alamat lengkap' className='md:p-1 xl:p-2 rounded bg-white outline-none w-full mt-4' />
+              <input type="text" placeholder='Alamat lengkap' className='p-1 xl:p-2 rounded bg-white outline-none w-full mt-4' />
               <div className="grid md:flex mt-4 md:space-x-4 md:space-y-0">
-                <select name='buah' id="" className='md:p-1 xl:p-2 rounded bg-white outline-none md:w-3/4 xl:w-1/2'>
+                <select name='buah' id="" className='p-1 xl:p-2 rounded bg-white outline-none md:w-3/4 xl:w-1/2'>
                   <option value="">Pilih buah</option>
                   <option value="Jacket">Anggur Red Globe</option>
                   <option value="Pants">Anggur Hijau</option>
                   <option value="Shoes">Anggur Hitam</option>
                 </select>
-                <div className="flex">
-                  <select name='qty' id="" className='md:p-1 xl:p-2 rounded bg-white outline-none md:w-full w-3/12'>
+                <div className="flex mt-4 xl:mt-0">
+                  <select name='qty' id="" className='p-1 xl:p-2 rounded bg-white outline-none md:w-full w-3/12'>
                     <option value="">Kuantitas</option>
                     <option value="Jacket">1</option>
                     <option value="Pants">2</option>
