@@ -39,8 +39,8 @@ const Main = () => {
           <div className="order w-full grid mt-10 xl:mt-0 mb-10 md:mb-16">
             <div className="wrapper border p-5 rounded-xl border-white mb-10 md:mb-0 md:mt-0 w-full md:w-3/4 lg:w-1/2 mx-auto xl:mx-0 xl:ml-auto h-max">
               <div className="xl:flex xl:space-x-4">
-                <input type="text" placeholder='Nama lengkap' className='p-1 xl:p-2 rounded mt-4 bg-white outline-none w-full' />
-                <input type="number" placeholder='No. WA/Telpon' className='p-1 xl:p-2 rounded mt-4 bg-white outline-none w-full md:mt-4 xl:mt-0' />
+                <input type="text" placeholder='Nama lengkap' className='p-1 xl:p-2 rounded 2xl:mt-0 mt-4 bg-white outline-none w-full' />
+                <input type="number" placeholder='No. WA/Telpon' className='p-1 xl:p-2 rounded 2xl:mt-0 mt-4 bg-white outline-none w-full md:mt-4 xl:mt-0' />
               </div>
               <input type="text" placeholder='Alamat lengkap' className='p-1 xl:p-2 rounded bg-white outline-none w-full mt-4' />
               <div className="grid md:flex mt-4 md:space-x-4 md:space-y-0">
@@ -65,7 +65,7 @@ const Main = () => {
                 </div>
               </div>
               
-              <p className='text-right md:text-center text-xl text-white my-10'>Total Belanja Rp.105.000</p>
+              {/* <p className='text-right md:text-center text-xl text-white my-10'>Selamat berbelanja</p> */}
               <Link to={'https://wa.link/7lqtyq'} className="order flex py-2 px-6 text-white mt-10 space-x-5 text-xl border rounded w-max cursor-pointer transition-all duration-700 hover:scale-110 mx-auto">
                 <p className=''>Pesan sekarang</p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
